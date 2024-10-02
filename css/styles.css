@@ -2869,3 +2869,15 @@ body {
 .team-description{
     text-align: justify;
 }
+
+
+.video-frame {
+    width: 50%;
+
+}
+
+@media (max-width: 768px) {
+    .video-frame {
+        width: 100%;
+    }
+}
