@@ -2154,6 +2154,13 @@ body:not(.device-touch) #gotoTop {
     line-height: 1.8
 }
 
+#sponsors {
+    padding: 40px 0;
+    background-color: #ddd;
+    font-size: .875rem;
+    line-height: 1.8
+}
+
 .widget {
     position: relative;
     margin-top: 50px
@@ -2606,6 +2613,11 @@ img {
 .dark #copyrights {
     color: rgba(255, 255, 255, .4);
     background-color: rgba(0, 0, 0, .2)
+}
+
+.dark #sponsors {
+    color: rgba(255, 255, 255, .4);
+    background-color: rgba(135, 135, 135, .2)
 }
 
 .table-striped > tbody > tr:nth-child(odd) {
