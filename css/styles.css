@@ -2881,3 +2881,29 @@ body {
         width: 100%;
     }
 }
+
+/* Countdown Timer Styling */
+.countdown-timer {
+    display: flex;
+    gap: 20px;
+}
+
+.countdown-box {
+    background: #00000069;
+    font-size: 48px;
+    font-weight: 700;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px 15px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.678);
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+    color: #ffffff; /* Darker text color for labels */
+}
