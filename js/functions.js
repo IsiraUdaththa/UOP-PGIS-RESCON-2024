@@ -2063,7 +2063,7 @@ var SEMICOLON = SEMICOLON || {};
 			let headerDefinedOffset = $header.attr('data-sticky-offset');
 			if( typeof headerDefinedOffset !== 'undefined' ) {
 				if( headerDefinedOffset == 'full' ) {
-					headerWrapOffset = $window.height();
+					headerWrapOffset = $window.height() / 4;
 					let headerOffsetNegative = $header.attr('data-sticky-offset-negative');
 					if( typeof headerOffsetNegative !== 'undefined' ) {
 						headerWrapOffset = headerWrapOffset - headerOffsetNegative - 1;
